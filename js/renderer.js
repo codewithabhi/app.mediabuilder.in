@@ -174,7 +174,7 @@ function setBackground(color)
 	$(renderer.domElement).css("background", back_color);
 	renderer.setClearColor(back_color, back_color == "none" ? 0 : 1);
 }
-var default_background = "none"
+var default_background = "#FFFFFF"
 setBackground(default_background);
 
 // to make sure we have requestAnimationFrame function (not fully supported)
